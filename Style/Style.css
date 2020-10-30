@@ -4,30 +4,33 @@ h1,h3{ color: brown; }/*Titulo 1 y 3*/
 
 /*Primer parrafo*/
 p strong{
-    font-weight: 100;
-    text-shadow: 1px 1px 2px violet;
+    color: violet;
+    text-shadow: 0px 0px 1.5px;
 }
 
 /*Listas*/
 ul{ color: red; }
 
 /*Hipervínculos*/
-a{
-    text-shadow: initial;
-    color: violet;
-}
+a{ color: violet; }
 
 /*Tabla*/
 table{ border-collapse: collapse; }/*Evitar bordes dobles*/
 table caption{ color: blue; } /*Titulo de la tabla*/
 table strong{ color: aqua; } /*Letras negritas exclusivas de la tabla, color aqua*/
-table, tr, td, th{ border: 1px solid black; } /*Dibujar bordes de la tabla*/
+table th, table td{ padding: 5px 10px;}/*Ajustar el contenido de las celdas*/
+table, tr, td, th{ border: 1px solid black;} /*Dibujar bordes de la tabla*/
 
 /*Pie de pagina*/
-#derechos{ font-style: italic; }
+#derechos{ font-style: italic; } /*Letra italica*/
 
+/*Linea de texto del pie de pagina*/
 p span strong, table{
-    
-    text-shadow: initial;
     color: green;
+    text-shadow: initial; /*Borrar estilos de sombra del primer parrafo*/
+}
+
+#Git a {
+    text-shadow: initial;
+    color: blue;
 }
